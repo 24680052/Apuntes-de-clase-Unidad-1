@@ -109,7 +109,7 @@ Los modelos de color son formas de representar colores numéricamente.
 
 ---
 
-# 🎨 Modelo RGB (Red, Green, Blue)
+# Modelo RGB (Red, Green, Blue)
 Es un modelo **aditivo** utilizado en pantallas.
 
 - (255, 0, 0) → rojo
@@ -120,7 +120,7 @@ La combinación máxima → blanco.
 
 ---
 
-# 🖨 Modelo CMY/CMYK
+# Modelo CMY/CMYK
 Modelo **sustractivo**, utilizado en impresión.
 
 - Cian
@@ -132,7 +132,7 @@ Funciona absorbiendo luz en lugar de emitirla.
 
 ---
 
-# 🎛 Modelo HSV (Hue, Saturation, Value)
+# Modelo HSV (Hue, Saturation, Value)
 Representa colores según percepción humana:
 
 - **Hue:** tono (0–360°)
@@ -141,7 +141,7 @@ Representa colores según percepción humana:
 
 ---
 
-# 🎛 Modelo HSL (Hue, Saturation, Lightness)
+# Modelo HSL (Hue, Saturation, Lightness)
 Similar al HSV, pero Lightness define claridad.
 
 ---
