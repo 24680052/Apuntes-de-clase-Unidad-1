@@ -189,4 +189,142 @@ El cubo tendrá:
 
 <img width="295" height="258" alt="image" src="https://github.com/user-attachments/assets/2941eefd-e595-4ff1-8ec4-5977d6d8b374" />
 
+# 1.5 Representación y trazo de líneas y polígonos
+
+La representación digital de líneas y polígonos es esencial en gráficos por computadora, ya que constituyen las primitivas básicas para formar figuras y modelos más complejos.
+
+## - Representación de líneas
+
+Las líneas deben aproximarse a una malla de píxeles. Los algoritmos más importantes son:
+
+### Algoritmo DDA (Digital Differential Analyzer)
+- Calcula los puntos intermedios mediante incrementos fraccionales.
+- Sencillo pero menos eficiente por el uso de números decimales.
+
+### Algoritmo de Bresenham
+- Solo utiliza operaciones enteras.
+- Muy eficiente para rasterizar líneas.
+- Es el más usado en sistemas gráficos y videojuegos.
+
+---
+
+## - Representación de polígonos
+
+Los polígonos son superficies definidas por líneas conectadas. Son la base del modelado 2D y 3D.
+
+### Tipos de polígonos
+- **Convexos:** más fáciles de rasterizar.
+- **Cóncavos:** requieren dividirse en polígonos convexos.
+
+### Métodos de relleno
+- **Scanline:** recorre la imagen horizontalmente para llenar áreas.
+- **Flood Fill:** rellena desde un punto interior.
+- **Boundary Fill:** depende de un color delimitador.
+
+Estos métodos permiten construir superficies visibles en modelos 3D y renderizados.
+
+# 1.5.1 Formatos de imagen
+
+Un formato de imagen define cómo se almacena la información visual. Se dividen en raster (mapas de bits) y vectoriales.
+
+---
+
+## Formatos raster
+
+Los más comunes:
+
+### JPG/JPEG
+- Compresión con pérdida.
+- Ideal para fotografías.
+
+### PNG
+- Compresión sin pérdida.
+- Soporta transparencia (canal alfa).
+
+### GIF
+- Paleta de 256 colores.
+- Permite animación simple.
+
+### BMP
+- Sin compresión.
+- Archivos pesados.
+
+### TIFF
+- Muy usado en escaneo e impresión profesional.
+
+---
+
+## ✏ Formatos vectoriales
+
+### SVG
+- Basado en XML.
+- Escalable sin perder calidad.
+
+### EPS
+- Gráficos para impresión.
+
+### PDF
+- Puede contener gráficos vectoriales y raster.
+# Poligono (Ejercicio practico)
+
+
+
+
+# 1.6 Procesamiento de mapas de bits
+
+El procesamiento de mapas de bits consiste en modificar imágenes pixel por pixel, lo cual es esencial en edición digital y motores gráficos.
+
+---
+
+## - Operaciones básicas
+
+### Brillo
+Incrementa o reduce los valores RGB.
+
+### Contraste
+Amplifica la diferencia entre tonos claros y oscuros.
+
+### Saturación y tono
+Ajuste del modelo HSV/HSL.
+
+### Escala de grises
+Convierte la imagen mediante luminancia.
+
+### Negativo
+Invierte los colores.
+
+---
+
+## - Transformaciones geométricas
+- Traslación  
+- Rotación  
+- Escalado  
+- Reflexión  
+
+Estas operaciones modifican la estructura espacial de los píxeles.
+
+---
+
+## - Filtrado por convolución
+
+Los kernels permiten aplicar efectos:
+- Suavizado (blur)  
+- Enfoque  
+- Detección de bordes (Sobel, Prewitt)  
+- Emboss  
+
+Se aplican mediante multiplicación matricial con la vecindad de cada píxel.
+
+---
+
+## - Aplicaciones en 3D y videojuegos
+
+Los mapas de bits permiten:
+- Crear texturas
+- Normal maps
+- Height maps
+- HDRI
+- Interfaces gráficas (HUD)
+
+Son fundamentales en motores como Unity, Unreal Engine y Blender.
 
