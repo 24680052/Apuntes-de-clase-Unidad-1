@@ -700,3 +700,13 @@ Los mapas de bits permiten:
 
 Son fundamentales en motores como Unity, Unreal Engine y Blender.
 
+# Bibliografias 
+Client challenge. (s. f.). https://es.scribd.com/document/393263572/Historia-y-Evolucion-de-La-Graficacion-Por-Computadora
+
+Client challenge. (s. f.-b). https://es.slideshare.net/slideshow/1-3-aspectos-mhttps://es.slideshare.net/slideshow/1-3-aspectos-matematicos-de-la-graficacion-pdf/282295700atematicos-de-la-graficacion-pdf/282295700
+
+Antonio. (2016, 19 junio). Modelos de color (RGB, CMYK, HSV/HSL). Antonio Herrera. https://ahenav.wordpress.com/2014/04/09/modelos-de-color/
+
+Client challenge. (s. f.-c). https://es.slideshare.net/slideshow/1-5-representacion-y-trazo-de-lineas-y-poligonos-formatos-de-imagen-pdf/282295744?nway-content_model=A
+
+Client challenge. (s. f.-d). https://es.slideshare.net/slideshow/1-6-procesamiento-de-mapas-de-bits-en-graficacion/282295902
